@@ -2,6 +2,11 @@
  var leftArrow = document.getElementsByClassName("left-arrow")[0];
 var rightArrow = document.getElementsByClassName("right-arrow")[0];
 
+//CUSTOM
+var subtn = document.getElementsByClassName("nameDecide box-width")[0];
+var nametxt=document.getElementById("inputName");
+
+
 //获取头像框
 var headPictures=document.getElementsByTagName("img");
 
@@ -14,6 +19,11 @@ for(var i=0;i<18;i++)
 
 //点击左箭头切换头像
 leftArrow.addEventListener('click', function () {
+ //CUSTOM
+ var mp3 = "./emm.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); //播放 mp3这个音频对象
+ //CUSTOM
     var p = headPosition[0];
     for(var t=0;t<headPosition.length;t++)
     {
@@ -28,6 +38,11 @@ leftArrow.addEventListener('click', function () {
 
 //点击右箭头切换头像
 rightArrow.addEventListener('click', function () {
+ //CUSTOM
+ var mp3 = "./good.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); //播放 mp3这个音频对象
+ //CUSTOM
     var p = headPosition[headPosition.length-1];
     for(var t= headPosition.length-1;t>0;t--)
     {
@@ -40,6 +55,19 @@ rightArrow.addEventListener('click', function () {
     }
 });
 
+//CUSTOM
+subtn.addEventListener('click', function () {
+    var mp3 = "./go.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); //播放 mp3这个音频对象
+});
+
+nametxt.addEventListener('click', function () {
+    var mp3 = "./reo.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); //播放 mp3这个音频对象
+});
+//CUSTOM
 
 
 
