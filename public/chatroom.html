@@ -151,7 +151,7 @@
     /*退出时执行的函数*/
     function closeWin(){
         socketObj.emit("exit",name);
-        window.location.href="about:blank";
+        window.location.href = "./chatroom.html";
         window.close();
     }
 
