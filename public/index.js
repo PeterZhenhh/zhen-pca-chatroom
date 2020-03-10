@@ -5,6 +5,11 @@ var rightArrow = document.getElementsByClassName("right-arrow")[0];
 //CUSTOM
 var subtn = document.getElementsByClassName("nameDecide box-width")[0];
 var nametxt=document.getElementById("inputName");
+var p11img = document.getElementsByClassName("p1 img-setting")[0];
+var p12img = document.getElementsByClassName("p1 img-setting")[1];
+var p21img = document.getElementsByClassName("p2 img-setting")[0];
+var p22img = document.getElementsByClassName("p2 img-setting")[1];
+var p3img = document.getElementById("trueHead");
 
 
 //获取头像框
@@ -64,6 +69,36 @@ subtn.addEventListener('click', function () {
 
 nametxt.addEventListener('click', function () {
     var mp3 = "./reo.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); //播放 mp3这个音频对象
+});
+
+p11img.addEventListener('click', function () {
+    var mp3 = "./fa.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); //播放 mp3这个音频对象
+});
+
+p12img.addEventListener('click', function () {
+    var mp3 = "./fa.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); //播放 mp3这个音频对象
+});
+
+p21img.addEventListener('click', function () {
+    var mp3 = "./fa.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); //播放 mp3这个音频对象
+});
+
+p22img.addEventListener('click', function () {
+    var mp3 = "./fa.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); //播放 mp3这个音频对象
+});
+
+p3img.addEventListener('click', function () {
+    var mp3 = "./fa.mp3";
         var mp3 = new Audio(mp3);
                         mp3.play(); //播放 mp3这个音频对象
 });
