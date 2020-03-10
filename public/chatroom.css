@@ -1,0 +1,110 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#sendMessage
+{
+    bottom: 0px;
+    position: fixed;
+    padding: 5px;
+    width: 100%;
+    height: 8%;
+    background-color: black;
+}
+
+#sendMessage input
+{
+    width: 85%;
+    border: 0;
+    padding: 10px;
+    background-color: blanchedalmond;
+    font: bolder 17px Arial,Verdana,Sans-serif;
+}
+
+#sendMessage button
+{
+    background-color: deepskyblue;
+    width: 12%;
+    border: none;
+    height: 45px;
+}
+
+#exit
+{
+    top: 0;
+    right:32%;
+    position: fixed;
+    width: 7%;
+    height: 10%;
+    border: none;
+}
+
+
+
+#onlineMembers
+{
+    height: 100%;
+    width: 30%;
+    border: 3px solid black;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+}
+
+#memberList
+{
+   list-style: none;
+}
+
+#messagesContainer
+{
+    margin-bottom: 5%;
+    position: relative;
+}
+
+
+#messages
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+li{
+    list-style-type: none;
+}
+
+.textContainer{
+    display: flex;
+    align-items: center;
+ }
+
+ .wholeHead{
+       display: flex;
+       align-items:flex-start;
+       margin: 15px;
+       flex-direction: column;
+
+ }
+ 
+ 
+ .head-in-line{
+     border: 2px solid royalblue;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     margin: 0;
+     position: relative;
+     margin-right: 10px;
+ }
+ 
+ 
+ .word
+ {
+     font-size: 25px;
+     font-weight: bolder;
+ }
