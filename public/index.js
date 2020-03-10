@@ -12,8 +12,24 @@ var p22img = document.getElementsByClassName("p2 img-setting")[1];
 var p3img = document.getElementById("trueHead");
 var mp3 = "./go.mp3";
         var mp3 = new Audio(mp3);
-                        mp3.play(); //播放 mp3这个音频对象
-		mp3.pause(); //播放 mp3这个音频对象
+                        mp3.play(); 
+		mp3.pause(); 
+var mp3 = "./fa.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); 
+		mp3.pause(); 
+var mp3 = "./emm.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); 
+		mp3.pause(); 
+var mp3 = "./reo.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); 
+		mp3.pause(); 
+var mp3 = "./good.mp3";
+        var mp3 = new Audio(mp3);
+                        mp3.play(); 
+		mp3.pause(); 
 
 
 //获取头像框
