@@ -61,19 +61,12 @@ rightArrow.addEventListener('click', function () {
 });
 
 //CUSTOM
- function sleep(millisecond) {
-        return new Promise(resolve => {
-            setTimeout(() => {
-                resolve()
-            }, millisecond)
-        })
-    }
 
 subtn.addEventListener('click', function () {
     var mp3 = "./go.mp3";
         var mp3 = new Audio(mp3);
                         mp3.play(); //播放 mp3这个音频对象
- await sleep(3000);
+ setTimeout(5000);//500毫秒后跳转
 });
 
 nametxt.addEventListener('click', function () {
