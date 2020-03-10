@@ -73,7 +73,7 @@ socket.on("head-in-line",function(head){
 })
 
 
-const PORT = process.env.PORT || 2333
-http.listen(PORT,localhost,function(){
-    console.log("running at 127.0.0.1");
-});
+const port = process.env.PORT || 2333;
+http.listen(port);
+
+console.log("Server running at http://localhost:%d", port);
