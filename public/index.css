@@ -21,6 +21,13 @@ body
 @keyframes changeBg
 {
     0%{background-image: url(./background/1.jpg);}
+    0%{background-image: url(./background/2.jpg);}
+    0%{background-image: url(./background/3.jpg);}
+    0%{background-image: url(./background/4.jpg);}
+    0%{background-image: url(./background/5.jpg);}
+    0%{background-image: url(./background/6.jpg);}
+    0%{background-image: url(./background/7.jpg);}
+    0%{background-image: url(./background/1.jpg);}
     5%{background-image: url(./background/1.jpg);}
     15%{background-image: url(./background/2.jpg);}
     20%{background-image: url(./background/2.jpg);}
