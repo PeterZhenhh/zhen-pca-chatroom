@@ -5,46 +5,6 @@
 }
 html,
 body
-{
-    width: 0%;
-    height: 0%;
-    background-image: url(./background/1.jpg);
-    background-size: 0% 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: changeBg1 20s infinite linear;
-}
-
-
-
-
-/*更换背景（嗯我知道很傻）*/
-@keyframes changeBg1
-{
-    0%{background-image: url(./background/1.jpg);}
-    0%{background-image: url(./background/2.jpg);}
-    0%{background-image: url(./background/3.jpg);}
-    0%{background-image: url(./background/4.jpg);}
-    0%{background-image: url(./background/5.jpg);}
-    0%{background-image: url(./background/6.jpg);}
-    0%{background-image: url(./background/7.jpg);}
-    0%{background-image: url(./background/1.jpg);}
-    5%{background-image: url(./background/1.jpg);}
-    15%{background-image: url(./background/2.jpg);}
-    20%{background-image: url(./background/2.jpg);}
-    30%{background-image: url(./background/3.jpg);}
-    35%{background-image: url(./background/3.jpg);}
-    44%{background-image: url(./background/4.jpg);}
-    48%{background-image: url(./background/4.jpg);}
-    58%{background-image: url(./background/5.jpg);}
-    62%{background-image: url(./background/5.jpg);}
-    72%{background-image: url(./background/6.jpg);}
-    76%{background-image: url(./background/6.jpg);}
-    86%{background-image: url(./background/7.jpg);}
-    90%{background-image: url(./background/7.jpg);}
-    100%{background-image: url(./background/1.jpg);}
-}
 
 {
     width: 100%;
