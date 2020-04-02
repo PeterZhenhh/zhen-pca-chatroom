@@ -3,9 +3,6 @@
 var rightArrow = document.getElementsByClassName("right-arrow")[0];
 
 //CUSTOM
-
-window.onload = function(){
-document.getElementById(“loading”).style.display = “none”;
 var subtn = document.getElementsByClassName("nameDecide box-width")[0];
 var nametxt=document.getElementById("inputName");
 var p11img = document.getElementsByClassName("p1 img-setting")[0];
@@ -126,14 +123,4 @@ p3img.addEventListener('click', function () {
         var mp3 = new Audio(mp3);
                         mp3.play(); //播放 mp3这个音频对象
 });
-//CUSTOM	
-}
-
-
-
-
-
-
-
-
-
+//CUSTOM
