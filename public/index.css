@@ -8,7 +8,7 @@ body
 {
     width: 100%;
     height: 100%;
-    background-image: url(./background/1.jpg);
+    background-image: url("https://ae01.alicdn.com/kf/H3bbd25ab58ee4bb7becd48f1c6ab59e0t.jpg");
     background-size: 100% 100%;
     display: flex;
     justify-content: center;
@@ -20,21 +20,21 @@ body
 /*更换背景（嗯我知道很傻）*/
 @keyframes changeBg
 {
-    0%{background-image: url(./background/1.jpg);}
-    5%{background-image: url(./background/1.jpg);}
-    15%{background-image: url(./background/2.jpg);}
-    20%{background-image: url(./background/2.jpg);}
-    30%{background-image: url(./background/3.jpg);}
-    35%{background-image: url(./background/3.jpg);}
-    44%{background-image: url(./background/4.jpg);}
-    48%{background-image: url(./background/4.jpg);}
-    58%{background-image: url(./background/5.jpg);}
-    62%{background-image: url(./background/5.jpg);}
-    72%{background-image: url(./background/6.jpg);}
-    76%{background-image: url(./background/6.jpg);}
-    86%{background-image: url(./background/7.jpg);}
-    90%{background-image: url(./background/7.jpg);}
-    100%{background-image: url(./background/1.jpg);}
+    0%{background-image: url("https://ae01.alicdn.com/kf/H3bbd25ab58ee4bb7becd48f1c6ab59e0t.jpg");}
+    5%{background-image: url("https://ae01.alicdn.com/kf/H3bbd25ab58ee4bb7becd48f1c6ab59e0t.jpg");}
+    15%{background-image: url("https://ae01.alicdn.com/kf/H9c91f6b7e4474ade837703e59a65b17bW.jpg");}
+    20%{background-image: url("https://ae01.alicdn.com/kf/H9c91f6b7e4474ade837703e59a65b17bW.jpg");}
+    30%{background-image: url("https://ae01.alicdn.com/kf/Hd9c8188fb58043e1b1b15ff081ea0175l.jpg");}
+    35%{background-image: url("https://ae01.alicdn.com/kf/Hd9c8188fb58043e1b1b15ff081ea0175l.jpg");}
+    44%{background-image: url("https://ae01.alicdn.com/kf/Hf613c85c1f5743918f1969754a84866a6.jpg");}
+    48%{background-image: url("https://ae01.alicdn.com/kf/Hf613c85c1f5743918f1969754a84866a6.jpg");}
+    58%{background-image: url("https://ae01.alicdn.com/kf/Hfa6f8091155f4f5392d09c2942bc0cc8z.jpg");}
+    62%{background-image: url("https://ae01.alicdn.com/kf/Hfa6f8091155f4f5392d09c2942bc0cc8z.jpg");}
+    72%{background-image: url("https://ae01.alicdn.com/kf/Had55fbad8a724cd7aef3a63b7bbe57d56.jpg");}
+    76%{background-image: url("https://ae01.alicdn.com/kf/Had55fbad8a724cd7aef3a63b7bbe57d56.jpg");}
+    86%{background-image: url("https://ae01.alicdn.com/kf/H2e10f2cab11d4cb7a52a8797810a9b18P.jpg");}
+    90%{background-image: url("https://ae01.alicdn.com/kf/H3bbd25ab58ee4bb7becd48f1c6ab59e0t.jpg");}
+    100%{background-image: url("https://ae01.alicdn.com/kf/H3bbd25ab58ee4bb7becd48f1c6ab59e0t.jpg");}
 }
 
 
